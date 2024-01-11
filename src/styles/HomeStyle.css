@@ -22,6 +22,8 @@
   width: 100%;
   position: absolute;
   top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 .hero_section .badge_text .h4_xs {
@@ -93,6 +95,8 @@
   padding-bottom: 100px;
 }
 .menu_section .card-img-top {
+  -webkit-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
   transition: all 500ms ease-in-out;
 }
 .menu_section h2 {
@@ -145,18 +149,22 @@
   padding: 8px 14px;
   border-radius: 4px;
   opacity: 0;
+  -webkit-transform: translateY(100px);
+  -ms-transform: translateY(100px);
   transform: translateY(100px);
   -webkit-transition: all 500ms ease-in-out;
-  -moz-transition: all 500ms ease-in-out;
-  -ms-transition: all 500ms ease-in-out;
   -o-transition: all 500ms ease-in-out;
   transition: all 500ms ease-in-out;
 }
 
 .menu_section .card:hover .card-img-top {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
   transform: scale(1.1);
 }
 .menu_section .card:hover .add_to_card a {
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
   transform: translateY(0px);
   opacity: 1;
 }
@@ -271,6 +279,7 @@
 .blog_section .user_img img {
   width: 100px;
   height: 100px;
+  -o-object-fit: cover;
   object-fit: cover;
   border-radius: 100%;
   margin-bottom: 25px;

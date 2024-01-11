@@ -7,6 +7,7 @@
 * {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -65,9 +66,7 @@ a {
   color: var(--light-black);
   text-decoration: none;
   -webkit-transition: all 400ms ease-in-out;
-  -moz-transition: all 400ms ease-in-out;
   -o-transition: all 400ms ease-in-out;
-  -ms-transition: all 400ms ease-in-out;
   transition: all 400ms ease-in-out;
 }
 
@@ -94,6 +93,8 @@ a {
   font-family: var(--oswald-font);
   vertical-align: middle;
   text-transform: uppercase;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 .order_now:hover,
